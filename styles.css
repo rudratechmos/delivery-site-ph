@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero h2 span {
+    color: orange;
+}
+
+.hero p {
+    margin: 20px 0;
+}
+
+.hero button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.menu, .popular-items, .why-choose-us, .testimonials, .newsletter {
+    padding: 50px 0;
+}
+
+.menu .container, .popular-items .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-item, .item {
+    text-align: center;
+    margin: 20px;
+    flex: 1 1 calc(25% - 40px);
+    box-sizing: border-box;
+}
+
+.menu-item img, .item img {
+    width: 100%;
+    height: auto;
+}
+
+.feature {
+    text-align: center;
+    margin: 20px;
+    flex: 1 1 calc(33% - 40px);
+    box-sizing: border-box;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: calc(100% - 22px);
+    box-sizing: border-box;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    border: none;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-column {
+    text-align: left;
+    flex: 1 1 calc(33% - 40px);
+    box-sizing: border-box;
+}
+
+.footer-column h3 {
+    border-bottom: 2px solid orange;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin: 10px 0;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color
