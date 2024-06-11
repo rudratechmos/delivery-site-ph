@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero h2 span {
+    color: #FFA500;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #555;
+}
+
+.hero button {
+    margin: 10px;
+    padding: 15px 30px;
+    border: none;
+    background-color: #FFA500;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.menu, .popular-items, .why-choose-us, .testimonials, .newsletter {
+    padding: 50px 0;
+}
+
+.menu .container, .popular-items .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu-item, .item {
+    text-align: center;
+    margin: 20px;
+    flex: 1 1 calc(25% - 40px);
+    box-sizing: border-box;
+}
+
+.menu-item img, .item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.menu-item h3, .item h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.menu-item p, .item p {
+    font-size: 16px;
+    color: #666;
+}
+
+.popular-items h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.items-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.items-grid .item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #FFA500;
+    color: white;
+    font-size:
